@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        colgroup {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Enhanced HTML Table Example</h1>
+
+    <table cellpadding="10" cellspacing="0" width="80%" summary="Sample table with multiple attributes">
+        <caption>Weekly Schedule</caption>
+        <colgroup>
+            <col span="1" style="background-color: #f2f2f2;">
+            <col span="1" style="background-color: #e0e0e0;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col" abbr="H1">Day</th>
+                <th scope="col" abbr="H2">Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" headers="H1">Monday</td>
+                <td>Data 1</td>
+            </tr>
+            <tr>
+                <td>Data 2</td>
+            </tr>
+            <tr>
+                <td rowspan="3" headers="H1">Tuesday</td>
+                <td>Data 3</td>
+            </tr>
+            <tr>
+                <td>Data 4</td>
+            </tr>
+            <tr>
+                <td>Data 5</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td colspan="2">Colspan 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

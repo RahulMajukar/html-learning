@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th,
+        td {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Table Example</h1>
+
+    <table>
+        <caption>Sample Data Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rahul Majukar</td>
+                <td>25</td>
+                <td>India</td>
+                <td>rahul@example.com</td>
+            </tr>
+            <tr>
+                <td>Krishna Majukar</td>
+                <td>30</td>
+                <td>UK</td>
+                <td>krishna@example.com</td>
+            </tr>
+            <tr>
+                <td>Mamta Majukar</td>
+                <td>28</td>
+                <td>Canada</td>
+                <td>mamta@example.com</td>
+            </tr>
+            <tr>
+                <td>Aditya Patil</td>
+                <td>32</td>
+                <td>Australia</td>
+                <td>aditya@example.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">End of the table</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!-- ------------------------------------- 
+! HTML Images
+* Author: Rahul Majukar
+---------------------------------------- -->
+
+<!-- 
+? image: Set of items grouped together
+? 3 type of link
+
+todo: type (img + enter)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Images</title>
+</head>
+
+<body>
+    <h1>HTML Images</h1>
+    <hr>
+
+    <!-- Basic Image -->
+    <h2>Basic Image</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+    <!-- Image with width and height -->
+    <h2>Image with Width and Height</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" width="200" height="200">
+
+    <!-- Image from different file location -->
+    <h2>Image with Width and Height</h2>
+    <img src="./images/typing.gif" alt="Placeholder Image" width="200" height="200">
+
+    <!-- Responsive Image -->
+    <h2>Responsive Image</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" style="max-width: 100%; height: auto;">
+
+    <!-- Image with title attribute -->
+    <h2>Image with Title Attribute</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" title="Hover text">
+
+    <!-- Image with longdesc attribute -->
+    <h2>Image with Long Description</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" longdesc="https://example.com/description.html">
+
+    <!-- Image with a link -->
+    <h2>Image with a Link</h2>
+    <a href="https://example.com">
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    </a>
+
+    <!-- Image as a figure with caption(title) -->
+    <h2>Image with Caption</h2>
+    <figure>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        <figcaption>Placeholder Image Caption</figcaption>
+    </figure>
+
+    <!-- Image with loading attribute -->
+    <h2>Image with Lazy Loading</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" loading="lazy">
+
+    <!-- Image with srcset and sizes attributes -->
+    <h2>Responsive Image with Srcset and Sizes</h2>
+    <img src="https://via.placeholder.com/800" alt="Placeholder Image"
+        srcset="https://via.placeholder.com/400 400w, https://via.placeholder.com/800 800w, https://via.placeholder.com/1200 1200w"
+        sizes="(max-width: 600px) 480px, (max-width: 1200px) 800px, 1200px">
+
+    <!-- Image with alt text as fallback -->
+    <h2>Image with Alt Text as Fallback</h2>
+    <img src="invalid-url.jpg" alt="This is a fallback text if the image fails to load">
+
+    <!-- Image with data-* attribute for custom data -->
+    <h2>Image with Custom Data Attribute</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" data-custom="Custom Data Attribute">
+
+    <!-- SVG Image -->
+    <h2>SVG Image</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo"
+        type="image/svg+xml">
+
+
+    <!-- Image with crossorigin attribute -->
+    <h2>Image with Crossorigin Attribute</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" crossorigin="anonymous">
+
+    <!-- Image with usemap attribute -->
+    <h2>Image with Usemap Attribute</h2>
+    <img src="https://via.placeholder.com/400x200" alt="Placeholder Image" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://example.com/computer">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://example.com/phone">
+    </map>
+
+    <!-- Image with decoding attribute -->
+    <h2>Image with Decoding Attribute</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" decoding="async">
+
+    <!-- Image with referrerpolicy attribute -->
+    <h2>Image with Referrerpolicy Attribute</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" referrerpolicy="no-referrer">
+
+    <!-- Image with intrinsicsize attribute -->
+    <h2>Image with Intrinsicsize Attribute</h2>
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image" intrinsicsize="300x150">
+
+</body>
+
+</html>

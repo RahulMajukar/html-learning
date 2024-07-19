@@ -1,0 +1,130 @@
+<!-- ------------------------------------- 
+! HTML links (anchor-tag)
+* Author: Rahul Majukar
+---------------------------------------- -->
+
+<!-- 
+? if you want to add a link we use anchor tag a
+? link take us from one page to another
+? in href attribute we have to give the url
+? by default browser will add the styling to links
+? links are inline element
+todo: type (a + enter)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Links</h1>
+
+    <!-- External Links -->
+    <h2>Go to google.com in current tab</h2>
+    <a href="https://google.com">Go to Google</a>
+
+    <h2>Go to facebook.com in new tab</h2>
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Go to Facebook</a>
+
+    <!-- Email Link -->
+    <h2>Send an email</h2>
+    <a href="mailto:rahulmajukar38@gmail.com" subject="Hello!">Send Email</a>
+
+    <!-- Email Link -->
+    <h2>Send an email</h2>
+    <a href="mailto:someone@example.com?subject=Hello!">Send Email</a>
+
+    <!-- Email Link with bcc-->
+    <h2>Send an email</h2>
+    <a
+        href="mailto:someone@example.com?subject=Hello!&bcc=another@example.com&body=Hi%20there,%0D%0AThis%20is%20a%20test%20email.">Send
+        Email with bcc</a>
+
+    <!-- SMS Link -->
+    <h2>Send an SMS</h2>
+    <a href="sms:+1234567890?body=Hello!">Send SMS</a>
+
+    <!-- WhatsApp Link -->
+    <h2>Send a WhatsApp message</h2>
+    <a href="https://wa.me/1234567890?text=Hello!">Send WhatsApp Message</a>
+
+    <!-- Skype Call Link -->
+    <h2>Initiate a Skype call</h2>
+    <a href="skype:live:username?call">Call on Skype</a>
+
+    <!-- Facetime Call Link -->
+    <h2>Initiate a Facetime call</h2>
+    <a href="facetime:+1234567890">Call on Facetime</a>
+
+    <!-- FTP Link -->
+    <h2>Download a file from FTP server</h2>
+    <a href="ftp://ftp.example.com/file.zip">Download from FTP</a>
+
+    <!-- Telephone Link -->
+    <h2>Make a phone call</h2>
+    <a href="tel:+919535741210">Call Us</a>
+
+    <!-- File Download Link -->
+    <h2>Download a file</h2>
+    <a href="https://example.com/sample.pdf" download="sample-file.pdf">Download PDF</a>
+
+    <!-- Anchor Link -->
+    <h2>Go to a section within the same page</h2>
+    <a href="#section1">Go to Section 1</a>
+
+    <!-- Map Link -->
+    <h2>Open location in Google Maps</h2>
+    <a href="https://www.google.com/maps?q=37.7749,-122.4194">Open San Francisco in Google Maps</a>
+
+    <!-- Section to Scroll To -->
+    <h2 id="section1">Section 1</h2>
+    <p>This is section 1. Scroll down for more content.</p>
+
+    <!-- More Content for Scrolling -->
+    <div style="height: 1000px;"></div>
+
+    <!-- Relative Link -->
+    <h2>Relative Link to another page</h2>
+    <a href="anotherpage.html">Go to Another Page</a>
+
+    <!-- Link with Title Attribute -->
+    <h2>Link with Title Attribute</h2>
+    <a href="https://example.com" title="This is an example website">Example Website</a>
+
+    <!-- Styled Link -->
+    <h2>Styled Link</h2>
+    <a href="https://styled.com" style="color: red; font-weight: bold;">Styled Link</a>
+
+    <!-- Link with hreflang Attribute -->
+    <h2>Link with hreflang Attribute</h2>
+    <a href="https://es.google.com" hreflang="es">Sitio en Español</a>
+
+    <!-- Link with type Attribute -->
+    <h2>Link with type Attribute</h2>
+    <a href="https://example.com/file.doc" type="application/msword">Download Word Document</a>
+
+    <!-- Link opening in parent frame -->
+    <h2>Open link in parent frame</h2>
+    <a href="https://parent.example.com" target="_parent">Open in Parent Frame</a>
+
+    <!-- Link opening in the same tab explicitly -->
+    <h2>Open link in the same tab</h2>
+    <a href="https://example.com" target="_self">Open in Same Tab</a>
+
+    <!-- WBR Example -->
+    <h2>WBR Example</h2>
+    <p>Here is a long URL that might need to be broken:
+        https://www.example.com/thisisaverylongurlthatmightneedtobebrokenintomultiplesections<wbr>otherwisewilloverflow
+    </p>
+
+    <!-- Embed Example -->
+    <h2>Embed Example</h2>
+    <embed src="./assets/HackifytechBackground.pdf" width="500" height="375" type="application/pdf">
+</body>
+
+</html>

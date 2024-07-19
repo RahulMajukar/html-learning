@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .action-btn {
+            padding: 5px 10px;
+            margin-right: 5px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .action-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .edit-btn {
+            background-color: #28a745;
+        }
+
+        .edit-btn:hover {
+            background-color: #218838;
+        }
+
+        .delete-btn {
+            background-color: #dc3545;
+        }
+
+        .delete-btn:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>User Management</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="./images/profile.png" alt="User Image"></td>
+                <td>Rahul Majuakr</td>
+                <td>rahul@example.com</td>
+                <td>
+                    <button class="action-btn edit-btn">Edit</button>
+                    <button class="action-btn delete-btn">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./images/profile.png" alt="User Image"></td>
+                <td>Shreyash Patil</td>
+                <td>shreyash@example.com</td>
+                <td>
+                    <button class="action-btn edit-btn">Edit</button>
+                    <button class="action-btn delete-btn">Delete</button>
+                </td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+</body>
+
+</html>

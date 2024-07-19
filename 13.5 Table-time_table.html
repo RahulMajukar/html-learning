@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Timetable</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .time-slot {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Weekly Timetable</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-slot">08:00 - 09:00</td>
+                <td>Math</td>
+                <td>English</td>
+                <td rowspan="2">Science</td>
+                <td>History</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td class="time-slot">09:00 - 10:00</td>
+                <td>English</td>
+                <td>Math</td>
+                <td>Geography</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td class="time-slot">10:00 - 11:00</td>
+                <td>Break</td>
+                <td>Break</td>
+                <td>Break</td>
+                <td>Break</td>
+                <td>Break</td>
+            </tr>
+            <tr>
+                <td class="time-slot">11:00 - 12:00</td>
+                <td>History</td>
+                <td rowspan="2">Science</td>
+                <td>Math</td>
+                <td>English</td>
+                <td>Geography</td>
+            </tr>
+            <tr>
+                <td class="time-slot">12:00 - 01:00</td>
+                <td>Geography</td>
+                <td>Math</td>
+                <td>History</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td class="time-slot">01:00 - 02:00</td>
+                <td colspan="5">Lunch Break</td>
+            </tr>
+            <tr>
+                <td class="time-slot">02:00 - 03:00</td>
+                <td>Math</td>
+                <td>English</td>
+                <td>History</td>
+                <td>Science</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td class="time-slot">03:00 - 04:00</td>
+                <td>PE</td>
+                <td>Art</td>
+                <td>Music</td>
+                <td>PE</td>
+                <td>Art</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

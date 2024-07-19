@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input Examples</title>
+</head>
+
+<body>
+    <h1>HTML Input Examples</h1>
+
+    <!-- Text Input -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required
+        minlength="8"><br><br>
+
+    <!-- Number Input -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" placeholder="Enter your age" min="18" max="100" required><br><br>
+
+    <!-- Date Input -->
+    <label for="birthdate">Birthdate:</label><br>
+    <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+    <!-- Checkbox Input -->
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to Newsletter</label><br><br>
+
+    <!-- Radio Inputs -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- File Upload Input -->
+    <label for="avatar">Choose a profile picture:</label><br>
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"><br><br>
+
+    <!-- Range Input -->
+    <label for="rating">Rating (1-10):</label><br>
+    <input type="range" id="rating" name="rating" min="1" max="10" value="5"><br><br>
+
+    <!-- Color Input -->
+    <label for="favorite-color">Favorite Color:</label><br>
+    <input type="color" id="favorite-color" name="favorite-color" value="#ff0000"><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit Form">
+
+    <!-- Reset Button -->
+    <input type="reset" value="Reset Form">
+
+    <!-- Button -->
+    <button type="button">Click Me</button>
+
+    <!-- Hidden Input (for storing data not displayed to the user) -->
+    <input type="hidden" id="user-id" name="user-id" value="12345">
+
+</body>
+
+</html>

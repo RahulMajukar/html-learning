@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Picture element with multiple sources -->
+    <h2>Picture Element with Multiple Sources</h2>
+    <picture>
+        <source srcset="image-400.jpg" media="(max-width: 400px)">
+        <source srcset="image-800.jpg" media="(max-width: 800px)">
+        <source srcset="image-1200.jpg" media="(max-width: 1200px)">
+        <img src="image-default.jpg" alt="A responsive image">
+    </picture>
+
+    <!-- Picture element with WebP support -->
+    <h2>Picture Element with WebP Support</h2>
+    <picture>
+        <source srcset="image.webp" type="image/webp">
+        <source srcset="image.jpg" type="image/jpeg">
+        <img src="image.jpg" alt="An image supporting WebP format">
+    </picture>
+</body>
+
+</html>

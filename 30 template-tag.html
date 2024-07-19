@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Example</title>
+</head>
+
+<body>
+    <!-- Using <template> -->
+    <template id="myTemplate">
+        <style>
+            /* Styles for the template content */
+            .card {
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-bottom: 10px;
+                background-color: #f0f0f0;
+            }
+        </style>
+        <div class="card">
+            <h2>Title</h2>
+            <p>Content goes here.</p>
+        </div>
+    </template>
+
+    <!-- Script to clone and insert the template content -->
+    <script>
+        // Get the template content
+        const template = document.getElementById('myTemplate').content;
+
+        // Create a clone of the template content
+        const clone = document.importNode(template, true);
+
+        // Insert the cloned content into the document
+        document.body.appendChild(clone);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!-- ------------------------------------- 
+! HTML Unorder List
+* Author: Rahul Majukar
+---------------------------------------- -->
+
+<!-- 
+? List: Set of items grouped together
+? 3 type of link
+!       i.unorder list
+?      ii.order list (1,a,A,i,I)
+?     iii.description list 
+? List are block level element
+todo: type (ul>li*3 + enter) | type (ol>li*3 + enter)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .marker li::marker {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>unorder list</h1>
+    <hr>
+
+    <h2>Foods</h2>
+    <ul>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Biryani</li>
+    </ul>
+
+
+    <h2>Changing the list style to disk(default)</h2>
+    <ul>
+        <li>Pizza</li>
+    </ul>
+
+    <h2>Changing the list style to circle </h2>
+    <ul style="list-style-type: circle;">
+        <li>Pizza</li>
+    </ul>
+
+
+    <h2>Changing the list style to square </h2>
+    <ul style="list-style-type: square;">
+        <li>Pizza</li>
+    </ul>
+
+
+    <h2>Changing the list style to none </h2>
+    <ul style="list-style-type: none;">
+        <li>Pizza</li>
+    </ul>
+
+
+    <h2>Customize marker content the list style to 🔥 </h2>
+    <ul style="list-style: '🔥';">
+        <li>Pizza</li>
+    </ul>
+
+    <h2>Customize Color List</h2>
+    <ul class="marker">
+        <li>Pizza</li>
+        <li>Pizza</li>
+        <li>Pizza</li>
+    </ul>
+
+
+</body>
+
+</html>

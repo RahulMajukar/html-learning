@@ -1,0 +1,77 @@
+<!-- ------------------------------------- 
+! HTML Nested List
+* Author: Rahul Majukar
+---------------------------------------- -->
+
+<!-- 
+? List: Set of items grouped together
+? 3 type of link
+?       i.unorder list
+?      ii.order list (1,a,A,i,I)
+?     iii.description list 
+? List are block level element
+! List inside list we call it as a nested list
+todo: type (ul>li*3 + enter) | type (ol>li*3 + enter)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Nested Lists -->
+    <h2>Nested Lists Ex1:</h2>
+    <ol>
+        <li>Food
+            <ul>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Biryani</li>
+            </ul>
+        </li>
+        <li>Drinks
+            <ul>
+                <li>Water</li>
+                <li>Soda</li>
+                <li>Juice</li>
+            </ul>
+        </li>
+    </ol>
+
+    <hr>
+
+    <!-- Nested Lists -->
+    <h2>Nested Lists Ex2:</h2>
+    <ol>
+        <li>Front end
+            <ul>
+                <li>html</li>
+                <ul>
+                    <li>html-5</li>
+                </ul>
+
+                <li>css</li>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>Tailwind</li>
+                </ul>
+                <li>javascript</li>
+            </ul>
+        </li>
+        <li>Back end
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Node js</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+
+</html>

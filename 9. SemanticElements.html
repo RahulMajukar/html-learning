@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        article {
+            flex: 2;
+            background-color: #f9f9f9;
+            padding: 10px;
+        }
+
+        section {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin-left: 10px;
+        }
+
+        aside {
+            background-color: #f0f0f0;
+            padding: 10px;
+            width: 200px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .highlight {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Website Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Main Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget felis vitae lorem sagittis fermentum
+                sit amet et tortor.</p>
+            <p>Nullam nec lorem felis. Suspendisse vitae purus ultrices, tempor odio eu, volutpat risus.</p>
+            <p>Donec fermentum nisl sed lectus laoreet, vitae venenatis enim volutpat.</p>
+        </article>
+
+        <section>
+            <h2>Section</h2>
+            <p>Curabitur id leo nec tellus posuere tempus. Fusce nec mauris non orci interdum ultricies. Nullam nec
+                tellus nec turpis malesuada facilisis.</p>
+        </section>
+
+        <aside>
+            <h2>Aside</h2>
+            <p>Phasellus convallis vitae nisi non tincidunt. Ut vitae lacus scelerisque, vehicula nisl in, consequat
+                lectus.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+    <div class="container">
+        <h2>Div Example</h2>
+        <p>This is a <span class="highlight">div</span> element used for grouping and styling content.</p>
+    </div>
+
+    <p>This is a <span class="highlight">span</span> element used for styling inline portions of text.</p>
+
+</body>
+
+</html>

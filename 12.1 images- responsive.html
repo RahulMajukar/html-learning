@@ -1,3 +1,25 @@
+<!-- -------------------------------------
+    ! HTML Picture Element
+    * Author: Rahul Majukar
+    ---------------------------------------- -->
+
+<!-- 
+    ? The <picture> element is used to provide multiple image sources for different display conditions, allowing for responsive and optimized images.
+    ? It allows the browser to choose the most appropriate image based on the device's characteristics such as screen width and format support.
+    ? Key attributes and usage:
+    !   - <source>: Defines multiple sources for the image, each with different media conditions or image formats.
+    !     - srcset: Specifies the path to the image file.
+    !     - media: Defines the media query for which the source is applicable.
+    !     - type: Specifies the MIME type of the image, useful for format-specific sources (e.g., WebP).
+    ? The <img> tag inside the <picture> element serves as a fallback if none of the <source> elements match or if the browser does not support the <picture> element.
+    ? Usage scenarios:
+    !   - Provide different image sizes for various screen widths to ensure optimal loading times and performance.
+    !   - Offer different image formats (e.g., WebP for modern browsers and JPEG for others) to improve compatibility and reduce file sizes.
+    !   - Ensure that all images have descriptive alt attributes for accessibility purposes.
+    
+    todo: Test various source conditions and formats to ensure that the <picture> element functions correctly across different browsers and devices.
+    -->
+
 <!DOCTYPE html>
 <html lang="en">
 

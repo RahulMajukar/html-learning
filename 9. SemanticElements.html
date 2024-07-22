@@ -1,3 +1,21 @@
+<!-- ------------------------------------- 
+! Example of Various Semantic HTML Tags
+* Author: Rahul Majukar
+---------------------------------------- -->
+
+<!-- 
+? The <header> tag is used to define a header for a document or section.
+? Use the <nav> tag to define a set of navigation links.
+? The <main> tag is used to denote the main content of the document.
+? Use the <article> tag to specify independent, self-contained content.
+? The <section> tag is used to define sections in a document.
+? Use the <aside> tag for content that is tangentially related to the content around it.
+? The <footer> tag is used to define a footer for a document or section.
+? Use the <div> tag as a container for other elements.
+? The <span> tag is used for styling inline elements.
+todo: Add additional examples for each tag and test their functionality.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Elements Example</title>
     <style>
+        /* Style for the entire body */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -13,6 +32,7 @@
             padding: 0;
         }
 
+        /* Style for the header element */
         header {
             background-color: #333;
             color: #fff;
@@ -20,11 +40,13 @@
             text-align: center;
         }
 
+        /* Style for the navigation element */
         nav {
             background-color: #f0f0f0;
             padding: 10px;
         }
 
+        /* Remove default list styling for the nav ul */
         nav ul {
             list-style-type: none;
             margin: 0;
@@ -32,22 +54,26 @@
             text-align: center;
         }
 
+        /* Display nav li elements inline */
         nav ul li {
             display: inline;
             margin-right: 10px;
         }
 
+        /* Flexbox layout for the main content */
         main {
             display: flex;
             justify-content: space-between;
         }
 
+        /* Style for the article element */
         article {
             flex: 2;
             background-color: #f9f9f9;
             padding: 10px;
         }
 
+        /* Style for the section element */
         section {
             flex: 1;
             background-color: #f0f0f0;
@@ -55,12 +81,14 @@
             margin-left: 10px;
         }
 
+        /* Style for the aside element */
         aside {
             background-color: #f0f0f0;
             padding: 10px;
             width: 200px;
         }
 
+        /* Style for the footer element */
         footer {
             background-color: #333;
             color: #fff;
@@ -69,6 +97,7 @@
             clear: both;
         }
 
+        /* Style for the container div */
         .container {
             margin: 20px auto;
             max-width: 800px;
@@ -77,6 +106,7 @@
             padding: 10px;
         }
 
+        /* Style for the highlight class */
         .highlight {
             color: red;
         }
@@ -84,10 +114,12 @@
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
         <h1>Website Header</h1>
     </header>
 
+    <!-- Navigation bar -->
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -97,7 +129,9 @@
         </ul>
     </nav>
 
+    <!-- Main content area using semantic elements -->
     <main>
+        <!-- Main article content -->
         <article>
             <h2>Main Article</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget felis vitae lorem sagittis fermentum
@@ -106,12 +140,14 @@
             <p>Donec fermentum nisl sed lectus laoreet, vitae venenatis enim volutpat.</p>
         </article>
 
+        <!-- Section content -->
         <section>
             <h2>Section</h2>
             <p>Curabitur id leo nec tellus posuere tempus. Fusce nec mauris non orci interdum ultricies. Nullam nec
                 tellus nec turpis malesuada facilisis.</p>
         </section>
 
+        <!-- Aside content -->
         <aside>
             <h2>Aside</h2>
             <p>Phasellus convallis vitae nisi non tincidunt. Ut vitae lacus scelerisque, vehicula nisl in, consequat
@@ -119,15 +155,18 @@
         </aside>
     </main>
 
+    <!-- Footer section -->
     <footer>
         <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
 
+    <!-- Div container example -->
     <div class="container">
         <h2>Div Example</h2>
         <p>This is a <span class="highlight">div</span> element used for grouping and styling content.</p>
     </div>
 
+    <!-- Span example for inline styling -->
     <p>This is a <span class="highlight">span</span> element used for styling inline portions of text.</p>
 
 </body>

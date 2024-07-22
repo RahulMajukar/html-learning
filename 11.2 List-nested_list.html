@@ -1,17 +1,17 @@
-<!-- ------------------------------------- 
-! HTML Nested List
+<!-- -------------------------------------
+! HTML Nested Lists
 * Author: Rahul Majukar
 ---------------------------------------- -->
 
 <!-- 
-? List: Set of items grouped together
-? 3 type of link
-?       i.unorder list
-?      ii.order list (1,a,A,i,I)
-?     iii.description list 
-? List are block level element
-! List inside list we call it as a nested list
-todo: type (ul>li*3 + enter) | type (ol>li*3 + enter)
+? Lists: A collection of related items
+? There are three types of lists in HTML:
+?       i. Unordered List
+?      ii. Ordered List (numbered, alphabetic, or Roman numerals)
+?     iii. Description List
+? Lists are block-level elements that span the entire width of their container.
+! Nested Lists: Lists within lists are called nested lists.
+todo: type (ul>li*3 + ul>li*3 + enter) | type (ol>li*3 + ul>li*3 + enter)
 -->
 
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ todo: type (ul>li*3 + enter) | type (ol>li*3 + enter)
 <body>
 
     <!-- Nested Lists -->
-    <h2>Nested Lists Ex1:</h2>
+    <h2>Nested Lists Example 1:</h2>
     <ol>
         <li>Food
             <ul>
@@ -47,28 +47,29 @@ todo: type (ul>li*3 + enter) | type (ol>li*3 + enter)
     <hr>
 
     <!-- Nested Lists -->
-    <h2>Nested Lists Ex2:</h2>
+    <h2>Nested Lists Example 2:</h2>
     <ol>
         <li>Front end
             <ul>
-                <li>html</li>
-                <ul>
-                    <li>html-5</li>
-                </ul>
-
-                <li>css</li>
-                <ul>
-                    <li>Bootstrap</li>
-                    <li>Tailwind</li>
-                </ul>
-                <li>javascript</li>
+                <li>HTML
+                    <ul>
+                        <li>HTML5</li>
+                    </ul>
+                </li>
+                <li>CSS
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Tailwind</li>
+                    </ul>
+                </li>
+                <li>JavaScript</li>
             </ul>
         </li>
         <li>Back end
             <ul>
                 <li>Java</li>
                 <li>Python</li>
-                <li>Node js</li>
+                <li>Node.js</li>
             </ul>
         </li>
     </ol>

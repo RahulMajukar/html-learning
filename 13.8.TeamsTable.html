@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border-radius: 4px;
+        }
+
+        table {
+            width: 60%;
+        }
+
+        .col-orange {
+            background-color: orange;
+        }
+
+        .col-sky {
+            background-color: skyblue;
+        }
+
+        .col-green {
+            background-color: greenyellow;
+        }
+
+        .p-20 {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>17:00</th>
+            <td class="col-orange p-20" colspan="3">
+                <b>Speaker Nine</b> <br>
+                Earth stage
+            </td>
+        </tr>
+
+        <tr>
+            <th>17:00</th>
+            <td class="col-sky p-20" colspan="3">
+                <b>Break</b> <br>
+                Saturn stage
+
+            </td>
+        </tr>
+
+        <tr>
+            <th>18:30</th>
+            <td rowspan="2" class="col-orange p-20">
+                <b>Speaker Ten</b> <br>
+                Lorem, ipsum.
+            </td>
+            <td rowspan="2" class="col-green p-20">
+                <b>Speaker Eleven</b> <br>
+                Lorem, ipsum dolor.
+            </td>
+            <td rowspan="2" class="col-sky p-20">
+                <b>Sepaker Twelve</b> <br>
+                Lorem ipsum dolor sit.
+            </td>
+        </tr>
+        <tr>
+            <th>19:00</th>
+        </tr>
+    </table>
+</body>
+
+</html>

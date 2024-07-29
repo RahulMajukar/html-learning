@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            color: red;
+        }
+
+        fieldset {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h2>Registration Form</h2>
+            </legend>
+            <label for="name">Enter Full Name: <span>*</span> </label> <br>
+            <input type="text" name="name" placeholder="First Name" required minlength="3">
+            <input type="text" name="name" placeholder="Last Name" required>
+            <br> <br>
+
+            <label for="emal">Enter email <span>*</span></label> <br>
+            <input type="email" name="email" placeholder="example@gmail.com" required>
+            <br><br>
+
+            <label for="phone">Enter Phone Number <span>*</span></label> <br>
+            <input type="number" name="phone" required>
+            <br><br>
+
+            <label for="phone">Enter Password <span>*</span></label> <br>
+            <input type="password" name="password" required minlength="5" maxlength="10">
+            <br><br>
+
+            <label for="address">Enter Address</label> <br>
+            <textarea name="address" cols="40" rows="4" minlength="10"></textarea>
+
+            <br><br>
+            <label for="date">Select Date of Birt</label> <br>
+            <input type="date" name="dob">
+
+            <br><br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear Form">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

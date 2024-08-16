@@ -1,0 +1,122 @@
+<!-- ------------------------------------- 
+! Example of Various HTML Tags
+* Author: Rahul Majukar
+---------------------------------------- -->
+
+<!-- 
+? The <abbr> tag displays the full form of an abbreviation when hovered over.
+? Use the <address> tag to format an address.
+? The <cite> tag is used to define the title of a work.
+? Use the <bdo> tag to change the text direction.
+? The <q> tag is used to define a short inline quotation.
+? The <time> tag is used to define a date/time.
+? Use the <code> tag to display a piece of computer code.
+? The <pre> tag displays preformatted text.
+? The <var> tag is used to define a variable in a mathematical expression or programming context.
+? The <kbd> tag is used to define keyboard input.
+? The <data> tag links the content with a machine-readable value.
+? The <dfn> tag is used to indicate a definition term.
+? The <bdi> tag isolates a part of text that might be formatted in a different direction from other text outside it.
+? The <details> and <summary> tags create an interactive widget that the user can open and close.
+? The <dl> tag is used for a description list.
+todo: Add additional examples for each tag and test their functionality.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Some special html tags</h1>
+
+    <h2>Abbrivation tag shows the full form of tag when we hover over the text</h2>
+    <abbr title="Hyper text markup language">HTML</abbr>
+
+    <h2>How to write the address properly</h2>
+    <address>
+        #123, 5th cross, xyz area, abc city
+    </address>
+
+    <h2>How to add Author name</h2>
+    <p>Rich dad poor dad book Author is <cite>Robert kiosaki</cite></p>
+
+    <h2>How to change the text direction</h2>
+    <bdo dir="ltr">left to right text</bdo>
+    <bdo dir="rtl">right to left text</bdo>
+
+
+    <h2>Double quotes </h2>
+    <p>default one "quotes" 'single quotes'</p>
+    <q> q tag double quotes</q>
+
+    <h1>Event Schedule</h1>
+
+    <p>The event starts at <time datetime="2024-06-15T18:00:00Z">6:00 PM UTC</time>.</p>
+    <p>Save the date: <time datetime="2024-06-15">June 15, 2024</time>.</p>
+    <p>Check-in time: <time datetime="2024-06-15T17:00:00-04:00">5:00 PM EDT</time>.</p>
+
+    <h2>Some other tags</h2>
+    <p>Here is an example of HTML code:</p>
+    <code>System.out.println("Subscribe to hackifytech")</code>
+    <pre><code>&lt;div&gt;Hello World&lt;/div&gt;</code></pre>
+
+    The area of a circle is calculated using the formula A = π<var>r</var><sup>2</sup>.
+
+    To save a document, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+
+    <p>The population of New York City is <data value="8623000">8,623,000</data>.</p>
+
+    <p><dfn>HTML</dfn> stands for HyperText Markup Language.</p>
+
+    <p>Here is some text in English: <bdi>مرحبا بالعالم</bdi>.</p>
+
+
+    <!-- Details and Summary -->
+    <h2>Detail and summary tags</h2>
+    <details>
+        <summary>Click to reveal hidden text</summary>
+        <p>Hello, I'm hidden text! Here you can add more information that will be shown when the user clicks on the
+            summary.
+        </p>
+        <ul>
+            <li>Item 1: More details about item 1.</li>
+            <li>Item 2: Additional information about item 2.</li>
+            <li>Item 3: Further details on item 3.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Learn more about HTML</summary>
+        <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+        <p>Here are some basic HTML elements:</p>
+        <ul>
+            <li><strong>&lt;h1&gt; to &lt;h6&gt;:</strong> Header tags for titles and subtitles.</li>
+            <li><strong>&lt;p&gt;:</strong> Paragraph tag for blocks of text.</li>
+            <li><strong>&lt;a&gt;:</strong> Anchor tag for links.</li>
+        </ul>
+    </details>
+
+    <details>
+        <summary>Frequently Asked Questions</summary>
+        <p>Here are some common questions and answers:</p>
+        <dl>
+            <dt>What is HTML?</dt>
+            <dd>HTML is a markup language for creating web pages.</dd>
+            <dt>What does CSS stand for?</dt>
+            <dd>CSS stands for Cascading Style Sheets, used for styling HTML elements.</dd>
+            <dt>What is JavaScript?</dt>
+            <dd>JavaScript is a programming language used to create interactive effects within web browsers.</dd>
+        </dl>
+    </details>
+
+
+
+</body>
+
+</html>
